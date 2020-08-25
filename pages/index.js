@@ -1,19 +1,14 @@
-import Head from 'next/head'
+import Metatag from '../components/core/metatag'
 
 const Index = (props) => {
 
     return (<>
-        <Head>
-            <title>Beautiful, high quality carpets | CarpetCity</title>
-            <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.css" />
-        </Head>
-        <h1>Página Inicial</h1>
+        <Metatag
+            title="Página Inicial"
+            description="Página Inicial SEO amigavel."
+        />
+        <h1>Página Inicial SEO</h1>
     </>)
 };
 
-Index.getInitialProps = async () => {
-    return {
-        products: []
-    }
-}
 export default Index;
