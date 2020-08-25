@@ -1,0 +1,21 @@
+{
+  "name": "sa-imobiliaria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joao Gardin <gardin1992@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.5.2",
+    "nextjs-sitemap-generator": "^1.1.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
